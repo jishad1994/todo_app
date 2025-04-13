@@ -1,0 +1,17 @@
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-brnad {
+    justify-content: center;
+    align-items: center;
+}
+.navbar-nav > li {
+    padding: 20px;
+}
