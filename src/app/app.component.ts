@@ -1,7 +1,8 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, NgModel } from '@angular/forms';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { CommonModule, NgFor } from '@angular/common';
+import { TodoComponent } from './todo/todo.component';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,8 @@ import { CommonModule, NgFor } from '@angular/common';
     CommonModule,
     RouterOutlet,
     RouterModule,
-    NgFor,
+    TodoComponent,
+
     
     
   ],
@@ -19,8 +21,5 @@ import { CommonModule, NgFor } from '@angular/common';
   styleUrl: './app.component.css',
 })
 export class AppComponent implements OnInit {
-  ngOnInit(): void {
-    
-  }
-
+  ngOnInit(): void {}
 }
